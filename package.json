@@ -9,8 +9,7 @@
     "package": "rollup -c",
     "minify": "uglifyjs dist/bundles/shared.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/shared.umd.min.js",
     "copy": "cp package-dist.json dist/package.json",
-    "build": "npm run transpile && npm run package && npm run minify && npm run copy",
-    "np": "cd dist/ && npm publish"
+    "build": "npm run transpile && npm run package && npm run minify && npm run copy"
   },
   "private": true,
   "dependencies": {

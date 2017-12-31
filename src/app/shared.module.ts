@@ -1,8 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-
-import { sharedComponent } from './shared.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {sharedComponent} from './shared.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {CommonModule} from '@angular/common';
 
 
 @NgModule({
@@ -10,12 +10,13 @@ import { sharedComponent } from './shared.component';
     sharedComponent
   ],
   imports: [
-    //BrowserModule
+    CommonModule, FormsModule, BrowserModule, ReactiveFormsModule
   ],
-  exports:[
+  exports: [
     sharedComponent
   ],
   providers: [],
   bootstrap: [sharedComponent]
 })
-export class SharedModule { }
+export class SharedModule {
+}

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'shared-root',
@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
 })
 export class sharedComponent {
 
-  constructor(){
+  constructor() {
     this.sayHello();
   }
 
- public sayHello(){
+  public sayHello() {
     console.log('Hello from library');
   }
 }
