@@ -1,8 +1,8 @@
 {
-  "name": "helloworld-naveen-lib",
-  "version": "1.0.4",
-  "description": "This is RosShared module for Angular Apps.",
-  "main": "bundles/ros-shared.umd.js",
+  "name": "npm-template-lib",
+  "version": "1.0.0",
+  "description": "NpmTemplate project provides template for building Npm module.",
+  "main": "bundles/shared.umd.js",
   "module": "index.js",
   "typings": "index.d.ts",
   "keywords": [
@@ -12,9 +12,5 @@
     "angular4"
   ],
   "author": "Naveen Kn",
-  "license": "Ross IT",
-  "peerDependencies": {
-    "@angular/core": "^2.4.0 || ^4.0.0",
-    "rxjs": "^5.0.1"
-  }
+  "license": "MIT"
 }
